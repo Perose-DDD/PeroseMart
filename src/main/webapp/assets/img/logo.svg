@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-labelledby="pmLogoTitle">
+  <title id="pmLogoTitle">PeroseMart</title>
+  <defs>
+    <linearGradient id="pmBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5e50"/>
+      <stop offset="1" stop-color="#123832"/>
+    </linearGradient>
+    <linearGradient id="pmPetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3aebb"/>
+      <stop offset="1" stop-color="#c08497"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="152" height="152" rx="28" fill="url(#pmBg)"/>
+  <rect x="4" y="4" width="152" height="152" rx="28" fill="none" stroke="#f0d7dd" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- Rose-petal mark formed from four petals around the P's bowl -->
+  <g transform="translate(100,54)">
+    <path d="M0 0 C 14 -10, 14 10, 0 18 C -14 10, -14 -10, 0 0 Z" fill="url(#pmPetal)" opacity="0.95"/>
+    <path d="M0 0 C 14 -10, 14 10, 0 18 C -14 10, -14 -10, 0 0 Z" fill="url(#pmPetal)" opacity="0.7" transform="rotate(90)"/>
+  </g>
+
+  <!-- Serif "P" monogram -->
+  <text x="50%" y="60%" text-anchor="middle" dominant-baseline="middle"
+        font-family="Playfair Display, Georgia, 'Times New Roman', serif"
+        font-size="88" font-weight="700" fill="#fdf4f6">P</text>
+</svg>
